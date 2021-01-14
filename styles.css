@@ -1,0 +1,139 @@
+body {
+    background-color: #1C1C21;
+    font-family: Arial, sans-serif;
+}
+
+.page_content {
+    height: 100vh;
+    position: relative;
+}
+
+.nav_options {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_options li {
+    padding: 0.6%;
+}
+
+.nav_options li a {
+    color: #BFBFBF;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-button {
+    background-color: #3569C3;
+    border: none;
+    border-radius: 1.5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 6% 1.8%;
+    width: 110px;
+    font-size: 14px;
+}
+
+.main_container {
+    display: flex;
+}
+
+.main_section-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    align-items: center;
+}
+
+.input {
+    margin: 1.6%;
+    background-color: #242424;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 17px;
+    height: 50px;
+    width: 540px;
+    border: none;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: none;
+}
+
+
+/* .main_section-buttons {
+    widht: 100%
+    height:
+} */
+
+.button {
+    background-color: #202020;
+    border: none;
+    border-radius: 3px;
+    color: #BFBFBF;
+    cursor: pointer;
+    padding: 3% 1.8%;
+    width: 154px;
+    font-size: 14px;
+    margin: 0 3.5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    font-size: 14px;
+}
+
+.location {
+    background-color: #262626;
+    border-top: 1px solid #3B3B3B;
+    color: #6C6C6C;
+    padding: 1% 0;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+.location p {
+    margin: 0px;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    padding: 1% 30px;
+}
+
+.footer_links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer_links a {
+    color: #BFBFBF;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+}
+
+.footer_links-left {
+    display: flex;
+}
+
+.footer_links-right {
+    display: flex;
+}
