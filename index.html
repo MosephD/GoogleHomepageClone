@@ -24,8 +24,8 @@
                     <li>
                         <a href="#">Images</a>
                     </li>
-                    <li>
-                        <img src="" alt="">
+                    <li class="apps-icon">
+                        <a href=""></a>
                     </li>
                     <li>
                         <button class="nav-button">Sign In</button>
@@ -39,16 +39,22 @@
 
         <div class="main_section-content">
 
-            <img src="googlelogo.png" alt="">
-            <input class="input" type="text" placeholder="Search...">
+            <img src="https://www.google.com//images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+
+            <div class="searchbox">
+                <i class="search-icon"></i>
+                <input class="input" type="text" placeholder="">
+                <a class="mic-icon" href=""></a>
+            </div>
+
             <div class="main_section-buttons">
                 <button class="button">Google Search</button>
                 <button class="button">I'm Feeling Lucky</button>
             </div>
-            <div>
+            <div class="main_section-language">
                 <p>Offered by Google in: <a href="#">English</a> <a href="#">Spanish (Latin America)</a> </p>
             </div>
-            <!-- <h4><a href="#">English</a></h4> -->
+
         </div>
 
 
@@ -69,10 +75,16 @@
 
             <div class="footer_links">
                 <ul class="footer_links-left">
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">How Search works</a></li>
+                    <div class="footer_links-left_1">
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">About</a></li>
+                    </div>
+                    <!-- I know maybe this is not the best way to make the last item in the ul break on mobile -->
+                    <div>
+                        <li><a href="#">How Search works</a></li>
+                    </div>
+
                 </ul>
                 <ul class="footer_links-right">
                     <li><a href="#">Privacy</a></li>
